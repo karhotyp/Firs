@@ -1,0 +1,21 @@
+# factorial.py
+
+def factorial(n):
+    """Функция факториала числа"""
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+def main():
+    try:
+        number = int(input("Введите число для вычисления факториала: "))
+        if number < 0:
+            print("Число должно быть положительным.")
+        else:
+            print(f"Факториал числа {number} равен {factorial(number)}")
+    except ValueError:
+        print("Введите корректное число")
+
+if __name__ == "__main__":
+    main()
