@@ -11,7 +11,7 @@ def main():
     try:
         number = int(input("Введите число для вычисления факториала: "))
         if number < 0:
-            print("Число должно быть положительным.")
+            print("Число должно быть +.")
         else:
             print(f"Факториал числа {number} равен {factorial(number)}")
     except ValueError:
