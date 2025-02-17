@@ -1,7 +1,7 @@
 # factorial.py
 
 def factorial(n):
-    """Функция факториала числа"""
+    """Функция факториала"""
     if n == 0 or n == 1:
         return 1
     else:
