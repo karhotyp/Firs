@@ -15,7 +15,7 @@ def main():
         else:
             print(f"Факториал числа {number} равен {factorial(number)}")
     except ValueError:
-        print("Введите корректное число")
+        print("Введите число")
 
 if __name__ == "__main__":
     main()
