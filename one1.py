@@ -10,7 +10,7 @@ def factorial(n):
 def main():
     try:
         number = int(input("Введите число для вычисления факториала: "))
-        if number < 0:
+        if number < 1:
             print("Число должно быть +.")
         else:
             print(f"Факториал числа {number} равен {factorial(number)}")
