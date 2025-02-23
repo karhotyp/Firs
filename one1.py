@@ -13,7 +13,7 @@ def main():
         if number < 1:
             print("Число должно быть +.")
         else:
-            print(f"Факториал числа {number} равен {factorial(number)}")
+            print(f"  Факториал number {number} равен {factorial(number)}")
     except ValueError:
         print("Введите число")
 
