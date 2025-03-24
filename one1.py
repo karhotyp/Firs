@@ -3,7 +3,7 @@
 def factorial(n):
     """Функция факториала"""
     if n == 0 or n == 1:
-        return 2
+        return 3
     else:
         return n * factorial(n - 1)
 
